@@ -1,25 +1,21 @@
 Warning: Google App Engine Java 7 runtime is deprecated.
 Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-Ιουν 21, 2018 6:29:57 ΜΜ com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Ιουν 22, 2018 11:25:39 ΠΜ com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/ounoufrios/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/ounoufrios/development/FinalProject/ud867/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-Ιουν 21, 2018 6:29:57 ΜΜ com.google.apphosting.utils.jetty.JettyLogger info
+Ιουν 22, 2018 11:25:39 ΠΜ com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
-Ιουν 21, 2018 3:29:58 ΜΜ com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+Ιουν 22, 2018 8:25:39 ΠΜ com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (/Users/ounoufrios/development/FinalProject/ud867/FinalProject/backend) is not equal to your 
 web application root (/Users/ounoufrios/development/FinalProject/ud867/FinalProject/backend/build/exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-Ιουν 21, 2018 3:29:58 ΜΜ com.google.apphosting.utils.jetty.JettyLogger info
+Ιουν 22, 2018 8:25:39 ΠΜ com.google.apphosting.utils.jetty.JettyLogger info
 INFO: jetty-6.1.x
-Ιουν 21, 2018 3:29:59 ΜΜ com.google.apphosting.utils.jetty.JettyLogger info
+Ιουν 22, 2018 8:25:40 ΠΜ com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Started SelectChannelConnector@localhost:8080
-Ιουν 21, 2018 3:29:59 ΜΜ com.google.appengine.tools.development.AbstractModule startup
+Ιουν 22, 2018 8:25:40 ΠΜ com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Ιουν 21, 2018 3:29:59 ΜΜ com.google.appengine.tools.development.AbstractModule startup
+Ιουν 22, 2018 8:25:40 ΠΜ com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Ιουν 21, 2018 6:29:59 ΜΜ com.google.appengine.tools.development.DevAppServerImpl doStart
+Ιουν 22, 2018 11:25:40 ΠΜ com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
-Ιουν 21, 2018 6:30:06 ΜΜ com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeByteBufferOperations
-WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
-Ιουν 21, 2018 6:30:06 ΜΜ com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeArrayOperations
-WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
